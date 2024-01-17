@@ -26,6 +26,6 @@ public class Main {
                 .get("/calc", ctx -> {
                     Runtime.getRuntime().exec("calc");
                 });
-        app.start(7070);
+        app.start("127.0.0.1", 7070);
     }
 }
