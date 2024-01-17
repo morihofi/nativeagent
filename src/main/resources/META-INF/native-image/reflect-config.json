@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "java.lang.Byte",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Double",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Float",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Integer",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Long",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Short",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.Boolean",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "java.lang.String",
+    "allPublicMethods" : true,
+    "allPublicConstructors" : true,
+    "allPublicFields" : true
+  }
+]
