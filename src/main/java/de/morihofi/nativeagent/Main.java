@@ -11,6 +11,12 @@ public class Main {
         Javalin app = Javalin.create(javalinConfig -> {
                     javalinConfig.showJavalinBanner = false;
                 })
+                .before(ctx -> {
+                    ctx.header("Access-Control-Allow-Origin","*");
+                    ctx.header("Access-Control-Allow-Methods","*");
+                    ctx.header("Access-Control-Allow-Headers","*");
+                    ctx.header("Access-Control-Max-Age", "3600");
+                })
                 .get("/", ctx -> ctx.result("Hello World"))
                 .get("/notification", ctx -> {
                     String title = ctx.queryParam("title");
